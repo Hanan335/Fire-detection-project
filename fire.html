@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Fire Detection</title>
+    <style>
+        body {
+            background-color: rgb(253, 120, 120);
+        }
+        h1 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+        }
+        .green {
+            color: green;
+        }
+
+        .red {
+            color: red;
+        }
+        .image{
+            display: flex; /* Use flexbox layout */
+            justify-content: center; /* Center horizontally */
+            height: 50vh;
+            padding-top: 2rem;
+        }
+        p {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xx-large;
+        }
+        .red-button {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .red-button:hover {
+            background-color: darkred;
+            transform: scale(1.05);
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="red logo">FIRE</span><span class="green logo">FIGHTERS</span></h1>
+    <div class="image"><img src="./forest_fire.jpeg"></div>    
+    <p>There is a risk of forest fire</p>
+    <div class="center">
+        <a href="tel:+18255610098" class="red-button">Notify!!</a>
+    </div>
+    
+</body>
+</html>
